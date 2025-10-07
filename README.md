@@ -1,4 +1,67 @@
 # SpiderFoot-venv
+
+## License
+
+This project is released under the MIT License (see `LICENSE`).  
+The software is provided “AS IS”, without warranties of any kind.
+
+If you reuse code, ideas, or modules inspired by **SpiderFoot** (https://github.com/smicallef/spiderfoot), please note that SpiderFoot is also licensed under MIT. Your use here does not imply any affiliation or endorsement.
+
+---
+
+## Attribution & No Affiliation
+
+This project is not affiliated with, sponsored by, or endorsed by **SpiderFoot**, **SpiderFoot HX**, or spiderfoot.net.  
+All product names, logos, and brands are property of their respective owners and are used for identification purposes only.
+
+---
+
+## Third-Party Components (NOTICE)
+
+This project may depend on or interface with third-party libraries and tools that have their own licenses. These do **not** change this project’s MIT license, but their terms still apply to those components.
+
+Examples (update this list to match your actual dependencies):
+
+- `requests` — Apache-2.0  
+- `beautifulsoup4` — MIT  
+- `dnspython` — ISC  
+- `phonenumbers` — Apache-2.0  
+- `networkx` — BSD-3-Clause
+
+---
+
+## External Services & Terms of Use
+
+Some features may query external services/APIs (e.g., Shodan, Have I Been Pwned, Censys, etc.).  
+Using those features means **you** must comply with each provider’s Terms of Service, rate limits, and legal restrictions. Provide your own API keys where required.
+
+---
+
+## Security Policy
+
+Please report vulnerabilities privately.  
+Avoid publishing PoC details that contain sensitive or personal data. We will acknowledge reports and work on a fix promptly.
+
+---
+
+## Privacy
+
+This project is intended for lawful use. Do not include or publish sensitive personal data.  
+
+---
+
+## Trademarks
+
+All trademarks and service marks are the property of their respective owners.  
+Their use here is solely for descriptive purposes and does not imply endorsement.
+
+---
+
+## Credits
+
+- Inspired by research/tools in the OSINT community, including **SpiderFoot** (MIT).  
+
+
 ## Quick Start
 ```bash 
 sudo apt update
@@ -53,7 +116,13 @@ python3 ./sf.py -l 127.0.0.1:5001
 ```
 ##  Start after installation
 ```bash
+cd projekty/SpiderFoot
 source .SpiderFoot/bin/activate
-cd projekty/SpiderFoot/spiderfoot-4.0/
+cd spiderfoot-4.0/
 python3 ./sf.py -l 127.0.0.1:5001
 ```
+##  Close venv after use SpiderFoot
+```bash
+deactivate
+```
+
