@@ -2,7 +2,7 @@
 
 ## License
 
-This project is released under the MIT License (see `LICENSE`).  
+This project is released under the MIT License.  
 The software is provided “AS IS”, without warranties of any kind.
 
 If you reuse code, ideas, or modules inspired by **SpiderFoot** (https://github.com/smicallef/spiderfoot), please note that SpiderFoot is also licensed under MIT. Your use here does not imply any affiliation or endorsement.
