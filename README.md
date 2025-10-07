@@ -53,6 +53,7 @@ python3 ./sf.py -l 127.0.0.1:5001
 ```
 ##  Start after installation
 ```bash
-
 source .SpiderFoot/bin/activate
+cd projekty/SpiderFoot/spiderfoot-4.0/
+python3 ./sf.py -l 127.0.0.1:5001
 ```
