@@ -114,13 +114,17 @@ python3 -m pip uninstall -y secure
 python3 -m pip install "secure==0.3.0"
 python3 ./sf.py -l 127.0.0.1:5001
 ```
-##  Start after installation
+Open your browser and go to 127.0.0.1:5001
+
+##  Start after installation - after restarting system
 ```bash
 cd projekty/SpiderFoot
 source .SpiderFoot/bin/activate
 cd spiderfoot-4.0/
 python3 ./sf.py -l 127.0.0.1:5001
 ```
+Open your browser and go to 127.0.0.1:5001
+
 ##  Close venv after use SpiderFoot
 ```bash
 deactivate
